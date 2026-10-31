@@ -1,0 +1,10 @@
+{
+  "title": "3つの画面案を比較する",
+  "subtitle": "操作の完了しやすさと情報の見つけやすさ",
+  "alternatives": [
+    {"name": "案 A", "completion": 90, "seconds": 42},
+    {"name": "案 B", "completion": 75, "seconds": 57},
+    {"name": "案 C", "completion": 65, "seconds": 64}
+  ],
+  "source": "このページの数値は表示確認用の架空データです。"
+}

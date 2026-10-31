@@ -1,0 +1,48 @@
+{
+  "design_system": {
+    "name": "Atmospheric Graphite",
+    "version": "1.0",
+    "concept": "静けさの中に、鮮明な意思を",
+    "origin": [
+      "08 Acid Graphite",
+      "13 Sky Diary",
+      "18 Plum Cinema"
+    ],
+    "colors": {
+      "light": {
+        "background": "#EAF3F6",
+        "surface": "#FFFFFF",
+        "surfaceRaised": "#F4F7F6",
+        "textPrimary": "#20282B",
+        "textSecondary": "#4F626B",
+        "actionPrimary": "#235F75",
+        "onActionPrimary": "#FFFFFF",
+        "accent": "#D8F15A",
+        "expressionPlum": "#624D80",
+        "expressionSky": "#87C6D8",
+        "outlineStrong": "#6A858C",
+        "focus": "#714994",
+        "success": "#21614E",
+        "warning": "#7B4F00",
+        "error": "#A82B41"
+      },
+      "dark": {
+        "background": "#221C2C",
+        "surface": "#302838",
+        "surfaceRaised": "#3B3444",
+        "textPrimary": "#F6F0EB",
+        "textSecondary": "#CAC0D4",
+        "actionPrimary": "#B9A1DE",
+        "onActionPrimary": "#221C2C",
+        "accent": "#D8F15A",
+        "expressionPlum": "#B9A1DE",
+        "expressionSky": "#9ED8E5",
+        "outlineStrong": "#9A8BA8",
+        "focus": "#D8F15A",
+        "success": "#95E0BD",
+        "warning": "#F8C77E",
+        "error": "#FF94A5"
+      }
+    }
+  }
+}

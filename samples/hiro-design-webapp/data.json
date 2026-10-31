@@ -1,0 +1,9 @@
+{
+  "projects": [
+    {"name": "デザインスキルの基盤づくり", "category": "共通基盤", "status": "進行中", "progress": 60},
+    {"name": "暮らしを記録するアプリ", "category": "アプリ", "status": "検討中", "progress": 25},
+    {"name": "読みやすい調査レポート", "category": "資料", "status": "進行中", "progress": 40},
+    {"name": "ポートフォリオの見直し", "category": "Web", "status": "確認待ち", "progress": 85},
+    {"name": "プロジェクト紹介スライド", "category": "資料", "status": "未着手", "progress": 0}
+  ]
+}

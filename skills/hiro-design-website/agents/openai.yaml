@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webサイトのデザイン"
+  short_description: "内容に合う第一印象と読み順を作り、次の行動まで分かりやすくつなぐ"
+  default_prompt: "$hiro-design-website を使って、内容と対象者に合う紹介サイトを作ってください。"

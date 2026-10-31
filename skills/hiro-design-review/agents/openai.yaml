@@ -1,0 +1,4 @@
+interface:
+  display_name: "デザインのレビュー"
+  short_description: "実物を観察し、直す場所と理由、影響、優先順位が分かるレビューを返す"
+  default_prompt: "$hiro-design-review を使って、この成果物の改善点を優先順位付きでレビューしてください。"

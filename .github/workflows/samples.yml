@@ -1,0 +1,24 @@
+name: Sample freshness
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check generated skills and tokens
+        run: python3 scripts/build-skills.py --check
+      - name: Check generated sample HTML
+        run: python3 scripts/render-samples.py --check
+      - name: Check declared color contrast pairs
+        run: python3 scripts/check-colors.py
+      - name: Check self-contained skill references
+        run: python3 scripts/validate-skills.py
+      - name: Check skill and sample consistency
+        run: python3 scripts/check-samples.py check
+      - name: Test freshness checks
+        run: python3 -m unittest discover -s tests -v

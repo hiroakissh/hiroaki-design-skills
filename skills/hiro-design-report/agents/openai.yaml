@@ -1,0 +1,4 @@
+interface:
+  display_name: "調査レポートのデザイン"
+  short_description: "結論と根拠の関係、比較条件、図表、出典が追える調査資料に整える"
+  default_prompt: "$hiro-design-report を使って、この調査結果を比較と根拠が追えるレポートに整えてください。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webアプリのデザイン"
+  short_description: "表・入力・検索と作業の流れを整え、密度の高い画面を使いやすくする"
+  default_prompt: "$hiro-design-webapp を使って、このWebアプリの一覧性と操作を改善してください。"

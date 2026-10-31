@@ -1,0 +1,162 @@
+{
+  "samples": [
+    {
+      "id": "hiro-design-app",
+      "skill": "hiro-design-app",
+      "status": "skill",
+      "title": "アプリのデザイン",
+      "inputs": [
+        "samples/hiro-design-app/brief.md",
+        "samples/hiro-design-app/template.html",
+        "scripts/render-samples.py",
+        "samples/hiro-design-app/data.json"
+      ],
+      "outputs": [
+        "samples/hiro-design-app/index.html",
+        "samples/hiro-design-app/preview-light.jpg",
+        "samples/hiro-design-app/preview-dark.jpg",
+        "samples/hiro-design-app/review.md"
+      ],
+      "preview": "samples/hiro-design-app/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-app/preview-light.jpg",
+        "dark": "samples/hiro-design-app/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-app/index.html",
+      "brief": "samples/hiro-design-app/brief.md",
+      "review": "samples/hiro-design-app/review.md"
+    },
+    {
+      "id": "hiro-design-webapp",
+      "skill": "hiro-design-webapp",
+      "status": "skill",
+      "title": "Webアプリのデザイン",
+      "inputs": [
+        "samples/hiro-design-webapp/brief.md",
+        "samples/hiro-design-webapp/template.html",
+        "scripts/render-samples.py",
+        "samples/hiro-design-webapp/data.json"
+      ],
+      "outputs": [
+        "samples/hiro-design-webapp/index.html",
+        "samples/hiro-design-webapp/preview-light.jpg",
+        "samples/hiro-design-webapp/preview-dark.jpg",
+        "samples/hiro-design-webapp/review.md"
+      ],
+      "preview": "samples/hiro-design-webapp/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-webapp/preview-light.jpg",
+        "dark": "samples/hiro-design-webapp/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-webapp/index.html",
+      "brief": "samples/hiro-design-webapp/brief.md",
+      "review": "samples/hiro-design-webapp/review.md"
+    },
+    {
+      "id": "hiro-design-website",
+      "skill": "hiro-design-website",
+      "status": "skill",
+      "title": "Webサイトのデザイン",
+      "inputs": [
+        "samples/hiro-design-website/brief.md",
+        "samples/hiro-design-website/template.html",
+        "scripts/render-samples.py"
+      ],
+      "outputs": [
+        "samples/hiro-design-website/index.html",
+        "samples/hiro-design-website/preview-light.jpg",
+        "samples/hiro-design-website/preview-dark.jpg",
+        "samples/hiro-design-website/review.md"
+      ],
+      "preview": "samples/hiro-design-website/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-website/preview-light.jpg",
+        "dark": "samples/hiro-design-website/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-website/index.html",
+      "brief": "samples/hiro-design-website/brief.md",
+      "review": "samples/hiro-design-website/review.md"
+    },
+    {
+      "id": "hiro-design-report",
+      "skill": "hiro-design-report",
+      "status": "skill",
+      "title": "調査レポートのデザイン",
+      "inputs": [
+        "samples/hiro-design-report/brief.md",
+        "samples/hiro-design-report/template.html",
+        "scripts/render-samples.py",
+        "samples/hiro-design-report/data.json"
+      ],
+      "outputs": [
+        "samples/hiro-design-report/index.html",
+        "samples/hiro-design-report/preview-light.jpg",
+        "samples/hiro-design-report/preview-dark.jpg",
+        "samples/hiro-design-report/review.md"
+      ],
+      "preview": "samples/hiro-design-report/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-report/preview-light.jpg",
+        "dark": "samples/hiro-design-report/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-report/index.html",
+      "brief": "samples/hiro-design-report/brief.md",
+      "review": "samples/hiro-design-report/review.md"
+    },
+    {
+      "id": "hiro-design-slides",
+      "skill": "hiro-design-slides",
+      "status": "skill",
+      "title": "スライドのデザイン",
+      "inputs": [
+        "samples/hiro-design-slides/brief.md",
+        "samples/hiro-design-slides/template.html",
+        "scripts/render-samples.py"
+      ],
+      "outputs": [
+        "samples/hiro-design-slides/index.html",
+        "samples/hiro-design-slides/preview-light.jpg",
+        "samples/hiro-design-slides/preview-dark.jpg",
+        "samples/hiro-design-slides/review.md",
+        "samples/hiro-design-slides/slide-2-light.jpg",
+        "samples/hiro-design-slides/slide-2-dark.jpg",
+        "samples/hiro-design-slides/slide-3-light.jpg",
+        "samples/hiro-design-slides/slide-3-dark.jpg"
+      ],
+      "preview": "samples/hiro-design-slides/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-slides/preview-light.jpg",
+        "dark": "samples/hiro-design-slides/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-slides/index.html",
+      "brief": "samples/hiro-design-slides/brief.md",
+      "review": "samples/hiro-design-slides/review.md"
+    },
+    {
+      "id": "hiro-design-review",
+      "skill": "hiro-design-review",
+      "status": "skill",
+      "title": "デザインのレビュー",
+      "inputs": [
+        "samples/hiro-design-review/brief.md",
+        "samples/hiro-design-review/template.html",
+        "scripts/render-samples.py"
+      ],
+      "outputs": [
+        "samples/hiro-design-review/index.html",
+        "samples/hiro-design-review/preview-light.jpg",
+        "samples/hiro-design-review/preview-dark.jpg",
+        "samples/hiro-design-review/review.md",
+        "samples/hiro-design-review/findings.md"
+      ],
+      "preview": "samples/hiro-design-review/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-review/preview-light.jpg",
+        "dark": "samples/hiro-design-review/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-review/index.html",
+      "brief": "samples/hiro-design-review/brief.md",
+      "review": "samples/hiro-design-review/review.md"
+    }
+  ]
+}

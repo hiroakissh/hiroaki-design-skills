@@ -1,0 +1,4 @@
+interface:
+  display_name: "アプリのデザイン"
+  short_description: "ネイティブの慣習と個人の配色を両立し、画面と操作の流れを整える"
+  default_prompt: "$hiro-design-app を使って、対象OSに合う画面と主要な操作状態を設計してください。"

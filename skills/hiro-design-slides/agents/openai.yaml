@@ -1,0 +1,4 @@
+interface:
+  display_name: "スライドのデザイン"
+  short_description: "聴衆に伝わる筋道と主張を整理し、発表で読めるスライドへ仕上げる"
+  default_prompt: "$hiro-design-slides を使って、この内容を発表向けのスライドに構成してください。"
