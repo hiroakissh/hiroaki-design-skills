@@ -1,11 +1,54 @@
 {
   "version": "0.1.0",
   "skills": [
-    {"name":"hiro-design-app","title":"アプリのデザイン","description":"ネイティブアプリの画面・導線・操作状態を設計、実装、改善する。iOS・Android・デスクトップの文脈を確認し、OSの慣習とAtmospheric Graphiteを両立する。Webサービスや集客サイトはそれぞれの専用スキルを使う。","summary":"ネイティブの慣習と個人の配色を両立し、画面と操作の流れを整える","prompt":"$hiro-design-app を使って、対象OSに合う画面と主要な操作状態を設計してください。"},
-    {"name":"hiro-design-webapp","title":"Webアプリのデザイン","description":"SaaS、管理画面、ダッシュボードなど継続して操作するWebアプリの情報設計とUIを作成・改善する。検索、入力、表、状態、キーボード操作、Light/Darkを扱う。集客用LPはhiro-design-websiteを使う。","summary":"表・入力・検索と作業の流れを整え、密度の高い画面を使いやすくする","prompt":"$hiro-design-webapp を使って、このWebアプリの一覧性と操作を改善してください。"},
-    {"name":"hiro-design-website","title":"Webサイトのデザイン","description":"LP、企業サイト、ポートフォリオなどのWebサイトを設計・実装・改善する。読者、内容、回遊、主な行動からレイアウトと表現を選ぶ。業務用の表や入力が中心ならhiro-design-webappを使う。","summary":"内容に合う第一印象と読み順を作り、次の行動まで分かりやすくつなぐ","prompt":"$hiro-design-website を使って、内容と対象者に合う紹介サイトを作ってください。"},
-    {"name":"hiro-design-report","title":"調査レポートのデザイン","description":"調査結果を、結論・比較条件・根拠・出典・限界を追えるレポートとして構成し、図表やページを整える。事実と推測を区別し、数値の意味を保持する。発表用のスライド構成はhiro-design-slidesを使う。","summary":"結論と根拠の関係、比較条件、図表、出典が追える調査資料に整える","prompt":"$hiro-design-report を使って、この調査結果を比較と根拠が追えるレポートに整えてください。"},
-    {"name":"hiro-design-slides","title":"スライドのデザイン","description":"提案・発表・調査説明のスライドを、聴衆と目的に合う筋道と視覚的な階層で作成・改善する。主張、根拠、図表、読みやすさ、発表時の見え方を扱う。長文レポートはhiro-design-reportを使う。","summary":"聴衆に伝わる筋道と主張を整理し、発表で読めるスライドへ仕上げる","prompt":"$hiro-design-slides を使って、この内容を発表向けのスライドに構成してください。"},
-    {"name":"hiro-design-review","title":"デザインのレビュー","description":"既存の画面や資料を実物からレビューし、問題の場所・影響・理由・修正案を優先順位付きで示す。配色、情報構造、文章、操作、動き、Light/Darkを依頼範囲で確認する。レビューだけの依頼では実装変更を行わない。","summary":"実物を観察し、直す場所と理由、影響、優先順位が分かるレビューを返す","prompt":"$hiro-design-review を使って、この成果物の改善点を優先順位付きでレビューしてください。"}
+    {
+      "name": "hiro-design-app",
+      "title": "アプリのデザイン",
+      "description": "ネイティブアプリの画面・導線・操作状態を設計、実装、改善する。iOS・Android・デスクトップの文脈を確認し、OSの慣習とAtmospheric Graphiteを両立する。Watch中心ならhiro-design-watch、Webは各専用スキルを使う。",
+      "summary": "ネイティブの慣習と個人の配色を両立し、画面と操作の流れを整える",
+      "prompt": "$hiro-design-app を使って、対象OSに合う画面と主要な操作状態を設計してください。"
+    },
+    {
+      "name": "hiro-design-watch",
+      "title": "Watchのデザイン",
+      "description": "Apple Watch、Wear OS、Garmin、Huawei、Zepp、Xiaomi Vela等のWatch・バンド用画面を設計、実装、改善する。丸型・角型・物理入力・常時表示と、アプリ・文字盤・complication・Tile・Glance・Data Fieldの違いを公式資料から判断する。",
+      "summary": "小画面・入力・常時表示を、WatchのOSと画面用途に合わせて設計する",
+      "prompt": "$hiro-design-watch を使って、対象Watchの公式ガイドに沿う画面と主要状態を設計してください。"
+    },
+    {
+      "name": "hiro-design-webapp",
+      "title": "Webアプリのデザイン",
+      "description": "SaaS、管理画面、ダッシュボードなど継続して操作するWebアプリの情報設計とUIを作成・改善する。検索、入力、表、状態、キーボード操作、Light/Darkを扱う。集客用LPはhiro-design-websiteを使う。",
+      "summary": "表・入力・検索と作業の流れを整え、密度の高い画面を使いやすくする",
+      "prompt": "$hiro-design-webapp を使って、このWebアプリの一覧性と操作を改善してください。"
+    },
+    {
+      "name": "hiro-design-website",
+      "title": "Webサイトのデザイン",
+      "description": "LP、企業サイト、ポートフォリオなどのWebサイトを設計・実装・改善する。読者、内容、回遊、主な行動からレイアウトと表現を選ぶ。業務用の表や入力が中心ならhiro-design-webappを使う。",
+      "summary": "内容に合う第一印象と読み順を作り、次の行動まで分かりやすくつなぐ",
+      "prompt": "$hiro-design-website を使って、内容と対象者に合う紹介サイトを作ってください。"
+    },
+    {
+      "name": "hiro-design-report",
+      "title": "調査レポートのデザイン",
+      "description": "調査結果を、結論・比較条件・根拠・出典・限界を追えるレポートとして構成し、図表やページを整える。事実と推測を区別し、数値の意味を保持する。発表用のスライド構成はhiro-design-slidesを使う。",
+      "summary": "結論と根拠の関係、比較条件、図表、出典が追える調査資料に整える",
+      "prompt": "$hiro-design-report を使って、この調査結果を比較と根拠が追えるレポートに整えてください。"
+    },
+    {
+      "name": "hiro-design-slides",
+      "title": "スライドのデザイン",
+      "description": "提案・発表・調査説明のスライドを、聴衆と目的に合う筋道と視覚的な階層で作成・改善する。主張、根拠、図表、読みやすさ、発表時の見え方を扱う。長文レポートはhiro-design-reportを使う。",
+      "summary": "聴衆に伝わる筋道と主張を整理し、発表で読めるスライドへ仕上げる",
+      "prompt": "$hiro-design-slides を使って、この内容を発表向けのスライドに構成してください。"
+    },
+    {
+      "name": "hiro-design-review",
+      "title": "デザインのレビュー",
+      "description": "既存の画面や資料を実物からレビューし、問題の場所・影響・理由・修正案を優先順位付きで示す。配色、情報構造、文章、操作、動き、Light/Darkを依頼範囲で確認する。レビューだけの依頼では実装変更を行わない。",
+      "summary": "実物を観察し、直す場所と理由、影響、優先順位が分かるレビューを返す",
+      "prompt": "$hiro-design-review を使って、この成果物の改善点を優先順位付きでレビューしてください。"
+    }
   ]
 }

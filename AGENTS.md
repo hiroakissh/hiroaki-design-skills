@@ -6,6 +6,7 @@
 - 個人の標準書体と状態別の色、余白・角丸・動きの固定値は未確定。サンプルの実装値を個人ルールとして確定しない。
 - 編集元は `source/`。配布物は `skills/`、共有する色は `tokens/`。生成物の手編集を避け、`python3 scripts/build-skills.py` で再生成する。
 - 各スキルは単独導入できるようにする。配布フォルダの外へのローカル参照や、サンプル集への必須依存を持たせない。
+- Watchの公式資料は `source/skills/hiro-design-watch/assets/watch-sources.json` に出典・確認日・対象・取得範囲を記録し、索引を生成する。現行・旧環境・取得限定と、デザイン資料・実装資料・周辺APIを区別する。
 - READMEは日本語で書く。参考情報は出典と取り入れ方を残し、ユーザーの配色・依頼を優先する。
 
 ## サンプルの更新は必須
@@ -29,6 +30,7 @@ python3 scripts/check-colors.py
 python3 scripts/validate-skills.py
 python3 scripts/check-samples.py check
 python3 -m unittest discover -s tests -v
+node tests/watch-state.test.cjs
 ```
 
 確認を終えたサンプルだけを記録する。

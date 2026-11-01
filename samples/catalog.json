@@ -27,6 +27,35 @@
       "review": "samples/hiro-design-app/review.md"
     },
     {
+      "id": "hiro-design-watch",
+      "skill": "hiro-design-watch",
+      "status": "skill",
+      "title": "Watchのデザイン",
+      "inputs": [
+        "samples/hiro-design-watch/brief.md",
+        "samples/hiro-design-watch/template.html",
+        "samples/hiro-design-watch/sample.css",
+        "samples/hiro-design-watch/sample.js",
+        "scripts/render-samples.py"
+      ],
+      "outputs": [
+        "samples/hiro-design-watch/index.html",
+        "samples/hiro-design-watch/preview-light.jpg",
+        "samples/hiro-design-watch/preview-dark.jpg",
+        "samples/hiro-design-watch/aod-light.jpg",
+        "samples/hiro-design-watch/aod-dark.jpg",
+        "samples/hiro-design-watch/review.md"
+      ],
+      "preview": "samples/hiro-design-watch/preview-light.jpg",
+      "previews": {
+        "light": "samples/hiro-design-watch/preview-light.jpg",
+        "dark": "samples/hiro-design-watch/preview-dark.jpg"
+      },
+      "artifact": "samples/hiro-design-watch/index.html",
+      "brief": "samples/hiro-design-watch/brief.md",
+      "review": "samples/hiro-design-watch/review.md"
+    },
+    {
       "id": "hiro-design-webapp",
       "skill": "hiro-design-webapp",
       "status": "skill",

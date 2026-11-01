@@ -1,0 +1,60 @@
+/* Generated from source/foundations/colors.json. State colors remain undecided. */
+:root, [data-theme="light"] {
+  --color-background: #EAF3F6;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #F4F7F6;
+  --color-text-primary: #20282B;
+  --color-text-secondary: #4F626B;
+  --color-action-primary: #235F75;
+  --color-on-action-primary: #FFFFFF;
+  --color-accent: #D8F15A;
+  --color-expression-plum: #624D80;
+  --color-expression-sky: #87C6D8;
+  --color-outline-strong: #6A858C;
+  --color-focus: #714994;
+  --color-success: #21614E;
+  --color-warning: #7B4F00;
+  --color-error: #A82B41;
+  --color-on-accent: var(--color-text-primary);
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --color-background: #221C2C;
+  --color-surface: #302838;
+  --color-surface-raised: #3B3444;
+  --color-text-primary: #F6F0EB;
+  --color-text-secondary: #CAC0D4;
+  --color-action-primary: #B9A1DE;
+  --color-on-action-primary: #221C2C;
+  --color-accent: #D8F15A;
+  --color-expression-plum: #B9A1DE;
+  --color-expression-sky: #9ED8E5;
+  --color-outline-strong: #9A8BA8;
+  --color-focus: #D8F15A;
+  --color-success: #95E0BD;
+  --color-warning: #F8C77E;
+  --color-error: #FF94A5;
+  --color-on-accent: var(--color-on-action-primary);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+  --color-background: #221C2C;
+  --color-surface: #302838;
+  --color-surface-raised: #3B3444;
+  --color-text-primary: #F6F0EB;
+  --color-text-secondary: #CAC0D4;
+  --color-action-primary: #B9A1DE;
+  --color-on-action-primary: #221C2C;
+  --color-accent: #D8F15A;
+  --color-expression-plum: #B9A1DE;
+  --color-expression-sky: #9ED8E5;
+  --color-outline-strong: #9A8BA8;
+  --color-focus: #D8F15A;
+  --color-success: #95E0BD;
+  --color-warning: #F8C77E;
+  --color-error: #FF94A5;
+  --color-on-accent: var(--color-on-action-primary);
+  color-scheme: dark;
+  }
+}

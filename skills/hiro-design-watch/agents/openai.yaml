@@ -1,0 +1,4 @@
+interface:
+  display_name: "Watchのデザイン"
+  short_description: "小画面・入力・常時表示を、WatchのOSと画面用途に合わせて設計する"
+  default_prompt: "$hiro-design-watch を使って、対象Watchの公式ガイドに沿う画面と主要状態を設計してください。"

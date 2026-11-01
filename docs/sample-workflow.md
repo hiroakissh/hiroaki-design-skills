@@ -4,7 +4,7 @@
 
 READMEから、スキルの適用結果を見て選べるようにする。スキルを変えたら、毎回同じ依頼文とデータで作り直し、Light/Darkの表示を確認する。
 
-現在の6用途は、各スキルの判断に沿って作成したHTML実装例。アプリはブラウザ用UIプロトタイプ、調査レポートとスライドはHTMLであり、ネイティブ実機・PDF・PPTXの検証済み成果物ではない。形式を拡張するときは、その成果物と実際の書き出しも検証する。
+現在の7用途は、各スキルの判断に沿って作成したHTML実装例。アプリとWatchはブラウザ用UIプロトタイプ、調査レポートとスライドはHTMLであり、ネイティブ実機・PDF・PPTXの検証済み成果物ではない。形式を拡張するときは、その成果物と実際の書き出しも検証する。
 
 ## ファイルの対応
 
@@ -24,7 +24,7 @@ samples/
     └── review.md                 # 適用内容・確認結果・制約
 ```
 
-スライドには続きのページ、レビューには指摘一覧も保持する。サンプルの追加時は、成果物とプレビューをREADMEからたどれるようにする。
+スライドには続きのページ、レビューには指摘一覧、Watchには通常表示と常時表示の比較画像も保持する。Watch等の専用CSS・JavaScriptは各サンプル内の `sample.css` / `sample.js` に置き、`inputs` に登録する。生成時にそのHTMLへだけインラインで同梱する。サンプルの追加時は、成果物とプレビューをREADMEからたどれるようにする。
 
 `catalog.json` の `inputs` は固定依頼文・データ・テンプレート・描画処理、`outputs` は実装・プレビュー・確認記録などを指定する。`artifact` は実装、`previews.light` と `previews.dark` は別々の画像を指定する。`preview` は一覧用の代表画像。
 
@@ -74,6 +74,13 @@ python3 scripts/check-colors.py
 python3 scripts/validate-skills.py
 python3 scripts/check-samples.py check
 python3 -m unittest discover -s tests -v
+node tests/watch-state.test.cjs
 ```
 
 ハッシュ・記録時刻・メモは更新の整合性を示す。適用の忠実さ、実表示の品質、操作の正しさ、アクセシビリティ全体は、成果物を見て確認する。
+
+## Watch資料を更新するとき
+
+編集元の `source/skills/hiro-design-watch/assets/watch-sources.json` に、出典・確認日・対象・取得方法・状態を記録する。ビルドが `docs/watch-design-guides.md` とスキル内の索引・台帳を生成する。取得できた本文と未取得の詳細、現行と旧環境、HIGと実装資料を区別する。
+
+資料の改訂で判断が変わったら、対応する日本語ガイドとサンプルへ反映する。角型・丸型・縦長、開始から完了まで、情報面・常時表示・単色、Light/Darkを確認する。ブラウザ画像は低電力表示の概念比較であり、実OSのAmbientや点灯率、電池、焼き付きの検証ではない。

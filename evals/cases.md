@@ -5,6 +5,10 @@
 | 依頼 | 主なスキル | 成果で確認すること |
 | --- | --- | --- |
 | iOSのプロジェクト一覧と詳細を設計する | hiro-design-app | OSとプロトタイプの区別、画面の関係、状態、主要操作 |
+| Apple Watchで開始・中断・常時表示を設計する | hiro-design-watch | watchOS、Crown、秘匿、位置の継続、実機確認の範囲 |
+| Wear OSの丸型画面とTileを設計する | hiro-design-watch | AppとTileの区別、小画面と文字拡大、回転・AmbientのSDK差 |
+| Garminの運動中の情報を追加する | hiro-design-watch | Data Fieldと独立アプリの選択、ボタン・MIP等の機種差 |
+| Xiaomiの縦長バンドとHONORに対応する | hiro-design-watch | Velaの機種別形状、メーカーだけで互換性を推定しない、未取得ガイドの明示 |
 | 管理画面の検索と絞り込みを改善する | hiro-design-webapp | 検索結果、0件、解除、選択、キーボード、密度 |
 | スキル集を紹介するサイトを作る | hiro-design-website | 具体的な見出し、実装済み内容、用途への導線、架空の実績を作らない |
 | 3案の比較を要約レポートに整える | hiro-design-report | 単位・比較条件・図表・出典、架空データの明示 |

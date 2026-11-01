@@ -2,46 +2,53 @@
   "version": 1,
   "samples": {
     "hiro-design-app": {
-      "inputsHash": "5125a1d6d0cfcdb93f6a3bcbcde8e167a987b80584293a5cb15bbd67550b45d1",
-      "outputsHash": "5ed3b67ed8d86898604063cb887417ad966309bda61c785f9f6f7f6a5629d59b",
-      "reviewHash": "8e8ffb0a5e7a8a91c98551276071e59e21c54906803efbbe1165282f80f52356",
-      "reviewedAt": "2026-10-31T15:11:44Z",
-      "note": "6スキルの判断とAtmospheric Graphite v1.0をHTMLへ適用。Light/Darkを幅1200pxで全件表示し、全3スライドと390pxのレイアウト、主要な入力・状態・移動を確認してJPEGを更新。形式と未検証範囲は各review.mdに記載。"
+      "inputsHash": "d735a7497ae828c89a4cdc99901c86a6b718fa891dd106f99d2ac434935783c0",
+      "outputsHash": "6137afe92a865552cfe531f1d66172392bc0842d2314a890d113cb8b48e7f1d7",
+      "reviewHash": "d3dc06730059215518565bbf4bf799ad3de70ae3b814d89c72a2e4b999520072",
+      "reviewedAt": "2026-11-01T01:05:08Z",
+      "note": "Watchスキルと公式資料26件の整理を適用。Watchは1200pxのLight/Dark・常時表示4画像、390px・単色・開始/中断/再開/完了・情報面/常時表示往復を確認。既存6用途も再生成して両モードを表示・再取得し、紹介サイトを7用途へ更新。全3スライドも確認。各review.mdに判断と検証範囲を記録。"
     },
     "hiro-design-webapp": {
-      "inputsHash": "a9478a23c0316d0aa2f066d19d38c07266d1f4d9ef72d9ed06106014d3c68d56",
-      "outputsHash": "4d5b9aff00874ee3a42fc3f2d769ccf5c49fb7ae4f4449b6d4dbb17360ce5650",
-      "reviewHash": "f97065fd29716a0101e8772ebda8b01d86f08c21893b2f598598d2619877aea8",
-      "reviewedAt": "2026-10-31T15:11:44Z",
-      "note": "6スキルの判断とAtmospheric Graphite v1.0をHTMLへ適用。Light/Darkを幅1200pxで全件表示し、全3スライドと390pxのレイアウト、主要な入力・状態・移動を確認してJPEGを更新。形式と未検証範囲は各review.mdに記載。"
+      "inputsHash": "bb22dcdb99030179d301a82091a8ec3ab4cffa32dd124422424b47a7ffd15571",
+      "outputsHash": "199a305023e812c71341d7efd57bd30ee0b94a5375fd3d413099fa16b831e481",
+      "reviewHash": "0e4ffa2f5a01c882164cba0f1cd2893a596d6c8c9f29c65a9a7b148a4d5636a0",
+      "reviewedAt": "2026-11-01T01:05:08Z",
+      "note": "Watchスキルと公式資料26件の整理を適用。Watchは1200pxのLight/Dark・常時表示4画像、390px・単色・開始/中断/再開/完了・情報面/常時表示往復を確認。既存6用途も再生成して両モードを表示・再取得し、紹介サイトを7用途へ更新。全3スライドも確認。各review.mdに判断と検証範囲を記録。"
     },
     "hiro-design-report": {
-      "inputsHash": "eebef05a459e4eaa9d7897d6daa6637473b99a343602e4363f4aff50f06cbe3f",
-      "outputsHash": "49d8614329f74dca8350f36326362ae1146e2fc69f97daec988339d73a4e4218",
-      "reviewHash": "b8303e670141a85e8daa4512cd4beea0520ece256797f0623f6a7ccd8630e4e1",
-      "reviewedAt": "2026-10-31T15:11:44Z",
-      "note": "6スキルの判断とAtmospheric Graphite v1.0をHTMLへ適用。Light/Darkを幅1200pxで全件表示し、全3スライドと390pxのレイアウト、主要な入力・状態・移動を確認してJPEGを更新。形式と未検証範囲は各review.mdに記載。"
+      "inputsHash": "7b152478db5c19c789fb023834454eac6eddfffbfb3481660896925256b71232",
+      "outputsHash": "c589fd139594404059f5c3da2ee7ffdea723fc143de0a8c66e77c0aad41df58a",
+      "reviewHash": "92b3aaef0f9d668a44309f0af376693397a7fc2a70d2607e5ddff910f8e036bd",
+      "reviewedAt": "2026-11-01T01:05:08Z",
+      "note": "Watchスキルと公式資料26件の整理を適用。Watchは1200pxのLight/Dark・常時表示4画像、390px・単色・開始/中断/再開/完了・情報面/常時表示往復を確認。既存6用途も再生成して両モードを表示・再取得し、紹介サイトを7用途へ更新。全3スライドも確認。各review.mdに判断と検証範囲を記録。"
     },
     "hiro-design-website": {
-      "inputsHash": "14d5d7275042c7328949ae733b2fc074c3d0a031d37317e3ad71e4a28977c197",
-      "outputsHash": "3c22426dda6fb3f4ab2a7dc7968d9d007fb2eddb5c02fd862de0d3b4374673b9",
-      "reviewHash": "0c0f9e0cc6f7eb87f1ecb421c686c4d8202e499167157bb730ef7e35ed5715ed",
-      "reviewedAt": "2026-10-31T15:11:44Z",
-      "note": "6スキルの判断とAtmospheric Graphite v1.0をHTMLへ適用。Light/Darkを幅1200pxで全件表示し、全3スライドと390pxのレイアウト、主要な入力・状態・移動を確認してJPEGを更新。形式と未検証範囲は各review.mdに記載。"
+      "inputsHash": "4e195b2bc082db42621f0bf4b8b4900ee8a6aa2608120e4696d5339291ed9ded",
+      "outputsHash": "ddad1c445c24ca08119c4199e43b6b51fb8cf2b74e4aef8b29ab3780d41d1a61",
+      "reviewHash": "8d94e69d08714bfc528ca47b639e30d0aac3484956e806e56dafce8e9e0b0205",
+      "reviewedAt": "2026-11-01T01:05:08Z",
+      "note": "Watchスキルと公式資料26件の整理を適用。Watchは1200pxのLight/Dark・常時表示4画像、390px・単色・開始/中断/再開/完了・情報面/常時表示往復を確認。既存6用途も再生成して両モードを表示・再取得し、紹介サイトを7用途へ更新。全3スライドも確認。各review.mdに判断と検証範囲を記録。"
     },
     "hiro-design-slides": {
-      "inputsHash": "1689330ca46adc176cebf4eec2ef902d69345eb97b872a542c17c48cee50441d",
-      "outputsHash": "3c98ac17757bc3a1ec9cffc181f8e6a4a329d8a3789db69e34157a1a030346e4",
-      "reviewHash": "37bb3ad4cdadd445ed0705840c8c46660cd22f51d5d60bc8140a7f4d73c8c91d",
-      "reviewedAt": "2026-10-31T15:11:44Z",
-      "note": "6スキルの判断とAtmospheric Graphite v1.0をHTMLへ適用。Light/Darkを幅1200pxで全件表示し、全3スライドと390pxのレイアウト、主要な入力・状態・移動を確認してJPEGを更新。形式と未検証範囲は各review.mdに記載。"
+      "inputsHash": "d2315758ac1ad309e8069df0b2a9e3d0ed7f0026eca8f505ff877c40eee5c07a",
+      "outputsHash": "aa1dce29b50e7d6fafed18a1bfc73ab80e354ee28a2c62e86e42c04d57cbc4fa",
+      "reviewHash": "cf1ee4d74f122d510463e41c93198bbaabded2f2023f39fecc2868d4ee60890d",
+      "reviewedAt": "2026-11-01T01:05:08Z",
+      "note": "Watchスキルと公式資料26件の整理を適用。Watchは1200pxのLight/Dark・常時表示4画像、390px・単色・開始/中断/再開/完了・情報面/常時表示往復を確認。既存6用途も再生成して両モードを表示・再取得し、紹介サイトを7用途へ更新。全3スライドも確認。各review.mdに判断と検証範囲を記録。"
     },
     "hiro-design-review": {
-      "inputsHash": "beb9f0451cf74fae03a6741c2b81c20129f1aa3a7d5249778c481ec0e6aa5de2",
-      "outputsHash": "d0cea670c11b8d044dd61f361bd5a0129a1132f077877cefcac983fc6f045484",
-      "reviewHash": "47920a911cefa6c9361c665654b67fd9de4657878d5b0c12b0f99f3608d7e13d",
-      "reviewedAt": "2026-10-31T15:11:44Z",
-      "note": "6スキルの判断とAtmospheric Graphite v1.0をHTMLへ適用。Light/Darkを幅1200pxで全件表示し、全3スライドと390pxのレイアウト、主要な入力・状態・移動を確認してJPEGを更新。形式と未検証範囲は各review.mdに記載。"
+      "inputsHash": "e369564c2b3b2e2ddb9bd847e98480c993b0b6cf80b62cb846c6616bef279275",
+      "outputsHash": "1eb1d6d24b40d224856ee76596592d9cf6b4f7ee656e2c78ae0257db44adbf73",
+      "reviewHash": "ff9a7551052542c4af0a2d7b925335464ad23ba2c005bad43689d604da4cdbe3",
+      "reviewedAt": "2026-11-01T01:05:08Z",
+      "note": "Watchスキルと公式資料26件の整理を適用。Watchは1200pxのLight/Dark・常時表示4画像、390px・単色・開始/中断/再開/完了・情報面/常時表示往復を確認。既存6用途も再生成して両モードを表示・再取得し、紹介サイトを7用途へ更新。全3スライドも確認。各review.mdに判断と検証範囲を記録。"
+    },
+    "hiro-design-watch": {
+      "inputsHash": "ebb2ad43b6eae88075fe4dc579d7d1d0a5190a85100f6cabafe3df00dfc765e1",
+      "outputsHash": "833b6d501d0e94bcfcd6212349268e3d547f4fdc2c2c58d86c808ad670ea732c",
+      "reviewHash": "7aa369fcb5fe1cbe68d1cebc7fae355da1801609d499620b54af8620e5c62a83",
+      "reviewedAt": "2026-11-01T01:07:10Z",
+      "note": "出典ごとの確認日を含む最終スキルで再確認。通常表示と常時表示のLight/Dark計4画像を1200pxで再取得。25分・固定時刻・3形状と既確認の操作を保持。"
     }
   }
 }

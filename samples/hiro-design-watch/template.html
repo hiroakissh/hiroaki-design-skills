@@ -1,0 +1,62 @@
+<section class="watch-intro" aria-labelledby="watch-title">
+  <div><p class="section-label">WATCH / 01 — FOCUS</p><h1 id="watch-title">手首に、今することだけ。</h1><p>一目で時間を確かめて、ひとつの操作で集中を始める。</p></div>
+  <span class="brand-tag">3 shapes · 1 purpose</span>
+</section>
+
+<div class="watch-demo-controls" aria-label="サンプルの比較操作">
+  <fieldset class="watch-view-controls"><legend>表示する面</legend><div class="row">
+    <button type="button" data-watch-view="app" aria-pressed="true">アプリ</button>
+    <button type="button" data-watch-view="glance" aria-pressed="false">一目で確認</button>
+    <button type="button" data-watch-view="aod" aria-pressed="false">常時表示</button>
+  </div></fieldset>
+  <label class="watch-mono"><input id="watch-monochrome" type="checkbox">単色で比較</label>
+</div>
+
+<section id="watch-stage" class="watch-stage" data-watch-mode="app" data-monochrome="false" aria-label="形状ごとの比較">
+  <article class="watch-example">
+    <header><p class="section-label">01 / RECTANGLE</p><h2>角型</h2><p>縦の流れを、短く。</p></header>
+    <div class="watch-device-space"><div class="watch-case watch-rectangle"><span class="watch-crown" aria-hidden="true"></span>
+      <section class="watch-screen" data-theme="dark" aria-label="角型の集中タイマー">
+        <span class="watch-clock" aria-label="比較用の固定時刻 9時41分">09:41</span>
+        <div class="watch-content"><p class="watch-task" data-watch-task>資料の構成を考える</p><p class="watch-value" data-watch-value>25:00</p><p class="watch-status" data-watch-status>開始できます</p></div>
+        <button type="button" class="watch-primary" data-watch-primary aria-label="角型のタイマーを開始">開始</button>
+      </section>
+    </div></div>
+    <p class="watch-caption">Crownで時間を選び、主操作へ。</p>
+  </article>
+  <article class="watch-example">
+    <header><p class="section-label">02 / ROUND</p><h2>丸型</h2><p>主情報を、中心に。</p></header>
+    <div class="watch-device-space"><div class="watch-case watch-round"><span class="watch-crown" aria-hidden="true"></span>
+      <section class="watch-screen" data-theme="dark" aria-label="丸型の集中タイマー">
+        <span class="watch-clock" aria-label="比較用の固定時刻 9時41分">09:41</span>
+        <div class="watch-content"><p class="watch-task" data-watch-task>資料の構成を考える</p><p class="watch-value" data-watch-value>25:00</p><p class="watch-status" data-watch-status>開始できます</p></div>
+        <button type="button" class="watch-primary" data-watch-primary aria-label="丸型のタイマーを開始">開始</button>
+      </section>
+    </div></div>
+    <p class="watch-caption">上下の曲面を避け、回転入力にも対応。</p>
+  </article>
+  <article class="watch-example">
+    <header><p class="section-label">03 / CAPSULE</p><h2>縦長バンド</h2><p>限られた幅に、ひとつずつ。</p></header>
+    <div class="watch-device-space"><div class="watch-case watch-capsule">
+      <section class="watch-screen" data-theme="dark" aria-label="縦長バンドの集中タイマー">
+        <span class="watch-clock" aria-label="比較用の固定時刻 9時41分">09:41</span>
+        <div class="watch-content"><p class="watch-task" data-watch-task>資料の構成を考える</p><p class="watch-value" data-watch-value>25:00</p><p class="watch-status" data-watch-status>開始できます</p></div>
+        <button type="button" class="watch-primary" data-watch-primary aria-label="縦長バンドのタイマーを開始">開始</button>
+      </section>
+    </div></div>
+    <p class="watch-caption">横並びを減らし、文字と操作の幅を確保。</p>
+  </article>
+</section>
+
+<div class="watch-simulation">
+  <div><p class="section-label">動きを比較する</p><p id="watch-feedback" role="status" aria-live="polite">25分のタイマー。開始できます。</p></div>
+  <div class="watch-simulation-buttons">
+    <button type="button" id="watch-less">回転 −5分</button><button type="button" id="watch-more">回転 ＋5分</button>
+    <button type="button" id="watch-advance">5分進める</button><button type="button" id="watch-reset">リセット</button>
+  </div>
+</div>
+
+<aside class="watch-explanation" aria-label="このサンプルの確認範囲">
+  <div><h2>同じ情報を、違う面へ。</h2><p id="watch-mode-description">主情報と一つの操作に絞ったアプリの概念例。3つの時計は同じ状態を共有します。</p></div>
+  <div><h2>比較のためのプロトタイプ</h2><p>時刻は09:41に固定。時間は「5分進める」で進みます。ページはLight/Dark、時計内はOLED向けの暗い表示です。黒キャンバスと単色化はデバイスへの適応で、個人パレットの追加色ではありません。</p><p>実OSの部品・入力・電池・焼き付き・実機寸法は未検証。complication・Tile・Glanceは別々のAPIで実装します。</p></div>
+</aside>

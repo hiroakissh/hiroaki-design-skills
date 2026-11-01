@@ -13,7 +13,7 @@ def text(value):
 
 
 def substitutions(name, data, catalog):
-    values = {}
+    values = {"skill_count": str(len(catalog["skills"]))}
     if name == "hiro-design-app":
         cards = []
         for project in data["projects"]:
@@ -65,9 +65,11 @@ def expected_files(root=ROOT):
             body = body.replace("{{"+key+"}}", value)
         if re.search(r"\{\{[a-z_]+\}\}", body):
             raise ValueError("Unresolved template field in " + name)
-        outputs["samples/"+name+"/index.html"] = page(skill["title"]+" / サンプル", body, styles, script, name)
+        local_styles = (folder / "sample.css").read_text(encoding="utf-8") if (folder / "sample.css").exists() else ""
+        local_script = (folder / "sample.js").read_text(encoding="utf-8") if (folder / "sample.js").exists() else ""
+        outputs["samples/"+name+"/index.html"] = page(skill["title"]+" / サンプル", body, styles+local_styles, script+("\n"+local_script if local_script else ""), name)
         cards.append('<article class="gallery-card"><a href="'+name+'/index.html"><img src="'+name+'/preview-light.jpg" alt="'+text(skill["title"])+'のLight表示" loading="lazy"><h2>'+text(skill["title"])+'</h2></a><p class="muted" style="font-size:14px;margin:10px 0">'+text(skill["summary"])+'</p><div class="row"><a href="'+name+'/index.html?theme=light">Lightで開く</a><a href="'+name+'/index.html?theme=dark">Darkで開く</a></div></article>')
-    gallery = '<div class="page-heading"><div><p class="section-label">用途から、実際の表示を見る</p><h1>Hiroaki Design Skills</h1><p>共通の配色と、それぞれに合う情報の形。</p></div><span class="brand-tag">6 skills</span></div><div class="gallery-grid">'+"\n".join(cards)+'</div>'
+    gallery = '<div class="page-heading"><div><p class="section-label">用途から、実際の表示を見る</p><h1>Hiroaki Design Skills</h1><p>共通の配色と、それぞれに合う情報の形。</p></div><span class="brand-tag">'+str(len(catalog["skills"]))+' skills</span></div><div class="gallery-grid">'+"\n".join(cards)+'</div>'
     outputs["samples/index.html"] = page("サンプル一覧", gallery, styles, script)
     return outputs
 
@@ -90,4 +92,4 @@ if __name__ == "__main__":
     stale = build(args.check)
     if args.check and stale:
         raise SystemExit("Sample HTML is stale:\n" + "\n".join(stale))
-    print("Sample HTML is current." if args.check else "Built 6 standalone HTML samples and their gallery. Capture both theme previews after inspection.")
+    print("Sample HTML is current." if args.check else "Built {} standalone HTML samples and their gallery. Capture both theme previews after inspection.".format(len(expected_files())-1))

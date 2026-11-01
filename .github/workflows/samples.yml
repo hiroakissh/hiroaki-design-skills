@@ -22,3 +22,5 @@ jobs:
         run: python3 scripts/check-samples.py check
       - name: Test freshness checks
         run: python3 -m unittest discover -s tests -v
+      - name: Test Watch sample state transitions
+        run: node tests/watch-state.test.cjs
